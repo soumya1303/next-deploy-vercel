@@ -9,7 +9,7 @@ const Hero = ()=>{
                 <Image src="/img/blog-image.jpeg" alt="" height={300} width={300}></Image>
             </div>
             <h1>I am Som</h1>
-            <p>I blog about cricket, popular physics, astronomy, history and coding</p>
+            <p>{`${process.env.initText}`}</p>
         </section>
     </Fragment>);
 }
